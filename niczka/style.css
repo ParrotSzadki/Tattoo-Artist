@@ -1,0 +1,138 @@
+html, body  {
+	background-color: #a2836e;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+p.headline {
+	font-family: Florence, cursive;
+	font-size: 50px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #674d3c;
+}
+.topnav a {
+    float: left;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Florence, cursive;
+}
+.topnav a:hover {
+	background-color: #d9ad7c;
+}
+ol.a {
+    font-family: Florence, cursive;
+    font-size: 25px;
+    padding-left: 50px;
+}
+footer {
+    width:100%;
+    height:50px;
+    background:#674d3c;
+    font-size: 17px;
+    text-align: center;
+    color: #FFF;
+    font-family: Florence, cursive;
+}
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.Site-content {
+    flex: 1;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.Site-content1 {
+    flex: 1;
+}
+.Site-content0 {
+    flex: 1;
+    padding-left: 25px;
+}
+p.text {
+    font-size: 25px;
+    font-family: Florence, cursive;
+}
+.text1 {
+    font-size: 25px;
+    font-family: Florence, cursive;
+    padding-left: 255px;
+    height: 50px;
+}
+.moveimage {
+    position: relative;
+    left: 400px;
+}
+.flex-container {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.moveimagemore {
+    position: relative;
+    left: 875px;
+}
+div.gallery {
+    margin: 5px;
+    border: 2px solid #d9ad7c;
+    float: left;
+    width: 240px;
+    height: 240px;
+}
+div.randomGallery {
+    margin: 5px;
+    border: 2px solid #d9ad7c;
+    float: left;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    position: fixed;
+    left: 39%;
+    top: 25%;
+}
+div.gallery:hover {
+    border: 2px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Florence, cursive;
+    font-size: 25px;
+}
+.button {
+    font-family: Florence, cursive;
+    font-size: 25px;
+    border-radius: 16px;
+    color: white;
+    background-color: #674d3c;
+    border: 3px solid white;
+    position: fixed;
+    left: 44%;
+    top: 80%;
+}
+.randombutton {
+    font-family: Florence, cursive;
+    font-size: 25px;
+    border-radius: 16px;
+    color: white;
+    background-color: #674d3c;
+    border: 3px solid white;
+    position: fixed;
+    left: 44%;
+    top: 80%;
+}
